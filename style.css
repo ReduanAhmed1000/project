@@ -1,0 +1,422 @@
+body{
+  
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.sec1{
+
+        background-image: url(donation7.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 600px;
+
+
+}
+
+.header-div{
+
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+
+}
+
+
+.header-div p{
+
+     text-align: center;
+     font-size: 80px;
+     color: white;
+
+}
+
+.des{
+
+    
+    
+    margin-top: 0;
+   
+}
+
+.des p{
+
+  text-align: center;
+  color: white;
+
+}
+
+
+  .donate a{
+    background-color: navy;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+
+    
+    /*text-align: center;*/ /*please tell me why didn't this work?*/
+    
+    
+    position: relative;
+    left: 45%; 
+    top: 20px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+/* section 2 start here*/
+
+ .sec2{
+
+        width: 100%;
+        height: 550px;
+
+ }
+
+.donate-today{
+
+      margin-top: 5%;
+
+}
+
+.donate-today h1{
+
+     text-align: center;
+     font-size: 60px;
+
+}
+
+.donate-today p{
+
+   text-align: center;
+
+}
+
+.amount{
+
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.amount > div{
+
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.tk{
+
+  background-color: navy ;
+  color: white;
+  width: 200px;
+  height: 100px;
+  
+  border-radius: 10px;
+  text-align: center;
+  
+  
+
+
+}
+
+#style{
+
+background-color: lightblue;
+border: blue;
+width: 200px;
+height: 100px;
+border-radius: 10px ;
+text-align: center;
+
+
+
+}
+
+.text{
+
+  text-align: center;
+
+}
+
+.text input{
+
+    width: 60%;
+    text-align: center;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*section3 start here*/
+
+.donate-plan h1{
+
+  text-align: center;
+  font-size: 60px;
+
+
+}
+
+
+.donate-plan p{
+
+     text-align: center;
+
+}
+
+.program{
+
+     display: flex;
+
+}
+
+.program > div {
+
+      margin: 10px;
+      padding: 10px;
+
+
+}
+
+.food{
+
+  background-color: lightskyblue;
+  width: 30%;
+
+}
+
+.shelter{
+
+   background-color: lightgreen;
+   width: 30%;
+
+}
+
+.education{
+
+   background-color: lightyellow;
+   width: 30%;
+
+}
+
+i{
+ 
+  font-size: 30px;
+
+}
+
+.plan{
+
+     height: 600px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*section4 start here*/
+
+.zakat {
+
+   width: 100%;
+   height: 600px;
+   margin-top: 200px;
+   padding: 20px;
+   display: flex;
+
+}
+
+.zakat > div{
+
+       margin: 10px;
+       padding: 20px;
+
+}
+
+.div2 img{
+
+   width: 90%;
+   height: 80%;
+   padding-top: 10%;
+
+}
+
+.div1{
+ 
+  width: 50%;
+
+}
+
+.div2{
+ 
+  width: 50%;
+
+}
+
+.div1 a{
+
+   text-decoration: none;
+   background-color: lightgreen;
+   color: green;
+   padding: 10px;
+   border-radius: 10px;
+
+
+}
+
+.div1 h1{
+
+    font-size: 50px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*section5 start here*/
+.up1 h1{
+
+       font-size: 50px;
+       text-align: center;
+      
+    }
+
+
+    .up1 p{
+
+      
+      text-align: center;
+     
+   }  
+   
+   
+   .up2{
+
+      background-color: lightgoldenrodyellow;
+      height: 200px;
+      width: 600px;
+      position: relative;
+      left: 30%;
+
+   }
+
+.inside{
+
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    /* why it doesn't work???*/
+
+
+    text-align: center;
+    position: relative;
+    top: 40%;
+
+}
+
+
+.inside input{
+
+  
+     height: 30px;
+     width: 40%;
+     
+
+
+}
+
+.inside button{
+
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footer start*/
+
+footer{
+
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+
+footer h3{
+
+     color: red;
+     text-align: center;
+
+}
+
+
+footer p{
+
+    color: white;
+    text-align: center;
+
+}
+
+
+/* I can't use any id because my hash button of my keyboard is not working. That's why I use class in every case.*/
+
+
